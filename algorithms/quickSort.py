@@ -8,7 +8,7 @@ def init(arr: list[int]):
     result = quickSort(start,end,arr)
     print("sorted array:", result )
 
-##you can mess around with the intial pivot point. this uses far right element as the pivot. you can have this same logic but swap the end and whatever index you want to use as pivot generally like a random value within range or the median value
+##you can mess around with the initial pivot point. this uses the far right element as the pivot. you can have this same logic but swap the end and whatever index you want to use as pivot generally like a random value within range or the median value
 def quickSort(start: int, end: int, arr: list[int]):
     if end - start + 1 <= 1: ## base case when arr is of size 1 or less
         return
