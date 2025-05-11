@@ -1,4 +1,5 @@
 # This is a sample Python script.
+from algorithms.mergeSort import initMergeSort
 from algorithms.quickSort import init
 
 
@@ -10,10 +11,11 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-
+arr1 = [3, 6, 8, 10, 1, 2, 1]
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    sorted  = init([3, 6, 8, 10, 1, 2, 1])
+    sorted  = init(arr1)
+    mergeSort = initMergeSort(arr1)
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

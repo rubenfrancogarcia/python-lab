@@ -2,7 +2,7 @@ input1 = [3, 6, 8, 10, 1, 2, 1]
 ## space complexity O(1), a "in-place" sorting algorithm
 
 def init(arr: list[int]):
-    print("inputs:", arr)
+    print("inputs for quickSort:", arr)
     start = 0
     end = len(arr) -1
     result = quickSort(start,end,arr)
